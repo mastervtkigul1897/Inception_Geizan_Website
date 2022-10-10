@@ -81,7 +81,7 @@ if($getuserinfo['grade'] >= 200){
                 <p style="font-size: 15px;">Points</p>
             </div>
             </li>
-            <li><a class="nav-link menu-title link-nav" href="redeem.php"><i class="fa fa-square"></i>&nbsp<span> Redeem RPS (<?php echo $getuserinfo['avail_points']; ?>)</span></a></li>
+            <li><a class="nav-link menu-title link-nav" href="redeem.php"><i class="fa fa-square"></i>&nbsp<span> Redeem RPS (<?php echo number_format($getuserinfo['avail_points'], 2); ?>)</span></a></li>
             <br>
             <li class="sidebar-main-title">
             <div>

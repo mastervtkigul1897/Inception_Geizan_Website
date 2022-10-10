@@ -80,7 +80,7 @@
                   </div>
                   <div class="card-body">
                     <?php 
-                    echo "Redeemable RPS: ". $getuserinfo['avail_points'];
+                    echo "Redeemable RPS: <b>". number_format($getuserinfo['avail_points'], 2). "</b>";
                     ?>
                     <br>
                     <br>
