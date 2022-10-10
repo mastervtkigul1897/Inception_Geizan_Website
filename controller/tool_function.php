@@ -149,13 +149,13 @@ if($getuserinfo['grade'] >= 200){
             $comments = $_POST['comments'];
             $amountusd = $_POST['amountusd'];
 
-            $serverincome = $amountusd * 0.65;
-            $resellerincome = $amountusd * 0.35;
+            $serverincome = $amountusd * 0.70;
+            $resellerincome = $amountusd * 0.30;
 
             $checkuser = sqlsrv_fetch_array(sqlsrv_query($connection, "SELECT COUNT(*) FROM RohanUser.dbo.TUser WHERE login_id = '$username'"));
 
             if($checkuser[0] == 1){
-                sqlsrv_query($connection, "UPDATE RohanUser.dbo.TUser SET rps = rps + $points WHERE login_id = '$username'");
+                sqlsrv_query($connection, "UPDATE RohanUser.dbo.TUser SET avail_points = avail_points + $points WHERE login_id = '$username'");
                 sqlsrv_query($connection, "INSERT INTO RohanGeizan.dbo.TReseller (username, points, comments, amount, server_income, reseller_income, date, reseller_id) VALUES ('$username','$points','$comments','$amountusd','$serverincome','$resellerincome',GETDATE(), '$session_username')");
                 echo '<script>alert("Points Successfully Sent!");</script>';
                 echo '<meta http-equiv="refresh" content="0; url=redirect.php">';    

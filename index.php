@@ -68,24 +68,28 @@
                     <h5>🔥SERVER INFORMATION🔥</h5>
                   </div>
                   <div class="card-body">
+
+                  "Rohan: Inception"<br><br>
+
+                  --------<br>
+                  Register: http://inception.geizanro.com/home/<br>
+                  Download http://inception.geizanro.com/home/<br><br>
+
+                  🔥Server Information🔥<br>
                   ➡️Classic Hero II Server<br>
-                  ➡️Semi Hard Core Full PVE Server<br>
                   ➡️Low Budget Friendly Item Mall<br>
                   ➡️Exchange Market Enabled<br>
                   ➡️Full Forging System<br>
                   ➡️Three(3) Clients/Accounts per Device Only<br>
-                  ➡️Auto Loot Max Items<br>
-                  ➡️Auto Consume IP Tickets / 1.2M - 2.5M Crone Drop<br>
+                  ➡️Auto Loot Max Items (Optional for Accessory)<br>
                   ➡️Level Up Rewards @ Agnes<br><br>
 
-                  ⚠️️3 Point Currency System<br>
+                  ➡️Farm Area: RONELIA/R4/R5/Burnt Ruins/Forgotten Fortress/Giant Fingerprints/Gratt Waterway/Hazy(Outside/Water Temple Garden)<br><br>
+
+                  ⚠️3 Point Currency System<br>
                   ✅️Rohan Points<br>
                   ✅️Game Points<br>
                   ✅️Exchange Market Points<br><br>
-
-                  🔥Daily/Weekly/Monthly Events<br>
-                  🔥Low to Mid Drop Rates<br>
-                  🔥Day/Night Active GM & Staffs To Serve You<br><br>
 
                   ❎️No Dual Stat Item Drops<br>
                   ❎️No Donated Items<br>
@@ -99,33 +103,94 @@
                   ➡️+1 to +5 = 100%<br>
                   ➡️+5 to +6 = 60%<br>
                   ➡️+6 to +7 = 40%<br>
-                  ➡️+7 to  +8 = 20%<br>
+                  ➡️+7 to +8 = 20%<br>
                   ➡️+8 to +9 =10%<br>
                   ➡️+9 to +10 = 5%<br>
                   ➡️+10 to +11 = 3%<br>
                   ➡️+11 to +12 = 1%<br>
-                  ➡️+12 to +13 = 0.1%(Very Lucky 😜)<br><br>
+                  ➡️+12 to +13 = 1%<br>
+                  ➡️+13 to +14 = 0.5%<br>
+                  ➡️+14 to +15 = 0.1%<br><br>
 
                   ⚠️Forging Rates:<br>
                   ➡️Rare: 70%<br>
                   ➡️Unique: 60%<br>
                   ➡️Ancient: 50%<br><br>
+
                   ⚠️IP Drop:<br>
                   ➡️500 IP = Common<br>
                   ➡️1000 IP = Semi Rare<br>
                   ➡️1750 IP = Rare<br><br>
+
                   ⚠️MiniBoss Drop:<br>
                   ➡️20000 IP<br>
                   ➡️+42 Accessory = Very Rare<br><br>
-                  ⚠️Chloe Rate:<br>
-                  ➡️Artisan V = 100% (No Fail, Sure Success)<br>
-                  ➡️Acce V2 = 70% (the ingredients will be disappeared once failed it means take risks)<br>
-                  ➡️Acce V3 = 50% (the ingredients will be disappeared once failed it means take risks)<br><br>
+
+                  ⚠️Enchanted Tonken:<br>
+                  ➡️Armor Reinforcement III = 20% Drop Chance<br><br>
+
+                  "CHLOE FORGE GUIDE"<br><br>
+
+                  ⚠️WARNING: Before forging on Chloe unwear your accessories or earings and put it on Treasury before forging to avoid item losses.<br><br>
+
+                  -----------------------------------------------------<br>
+                  ⚠️ACCESSORY FORGE<br>
+                  🔗5 Pcs Crest Accessory = Artisan IV Accessory (70% Chance)<br>
+                  🔗5 Pcs Artisan V Accessory = Fragment (50% Chance)<br>
+                  🔗5pcs Boss Fossil = Inception's Antique (50% Chance)<br><br>
+
+                  ⚠️Rhodium Chest (Lupus)<br>
+                  🔗Drop: Lupus Message = Collect 250pcs. for Lupus Ticket (Obtain Quest from Lupus Keeper located @GH)<br>
+                  🔗Drop: IP Tickets, Crones<br>
+                  -----------------------------------------------------<br>
+                  ⚠️Geizan Iced Crystalloid [15 Days]<br>
+                  ➡️Allstats + 110<br>
+                  ➡️Defense + 200<br>
+                  ➡️HP + 10000<br><br>
+
+                  ⚠️How to get?<br>
+                  🔗Buy the recipe from Talgath.<br><br>
+
+                  ⚠️FORGE<br>
+                  🔗5pcs Crystalloid = Geizan Iced Crystalloid [15 Days] - 40% Success<br><br>
+
+                  ⚠️Major Boss - Drop: Boss Fossil, Artisan V Accessory, Crones, IP Tickets<br>
+                  ➡️Bezemut<br>
+                  ➡️Elizabeth<br>
+                  ➡️Ramos<br>
+                  ➡️Raymond<br>
+                  ➡️Zeitgeist<br>
+                  ➡️Silva<br>
+                  ➡️Russell<br>
+                  ➡️Aquarias<br>
+                  ➡️Ruler of the Ancient Darkness<br><br>
+
+                  ⚠️Walter Boss = Walter Sealed Talisman<br>
+                  🔗Mirebreath Kniedhogg<br>
+                  🔗Crimsonscale Hellkite<br><br>
+
                   ⚠️TSB Major (Saturday) (GMT +8)<br>
-                  ➡️Registration: 6:30 PM<br>
+                  ➡️Registration: 6:30 PM <br>
                   ➡️Standby: 8:00 PM<br>
-                  ➡️Start: 9:00 PM<br>
-                  ➡️End: 9:30 PM<br>
+                  ➡️Start: 9:00 PM <br>
+                  ➡️End: 9:30 PM<br><br>
+
+                  ⚠️You can obtain items from Item Mall through RPS at low cost.<br><br>
+
+                  ⚠️How to Top Up?<br>
+                  ➡️You can obtain RPS via GCASH, BPI, USDT/BUSD, PAYPAL<br><br>
+
+                  ➡️GCASH: <br>
+                  ➡️09777212946 - Marvin G. <br><br>
+
+                  ➡️For more top up details, kindly message us on our Facebook Page.<br><br>
+
+                  Indonesian Players can now top up to our Reseller.<br><br>
+
+                  Facebook: https://www.facebook.com/andy.b.cok <br>
+                  Whatsapp: 089501945079<br><br>
+
+                  ⚠️"Beware of scammers, please remember the names mentioned above to avoid scam."<br>
                   </div>
                 </div>
               </div>

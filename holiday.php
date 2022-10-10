@@ -73,10 +73,21 @@
               <div class="col-sm-3">
                 <div class="card">
                   <div class="card-header">
-                    <h5>🔥Schedule🔥</h5>
+                    <h5>🔥Rewards🔥</h5>
                   </div>
                   <div class="card-body">
-                  <p> ✅️ September 1, 2022 - September 9, 2022</p>
+                  <p> <b>Removed Rewards:</b></p>
+                  <p> Geizan V1 Accessory</p>
+                  <p> Geizan V2 Accessory:</p><br>
+                  <p> <b>Possible Rewards Now:</b></p>
+                  <p> Flaming Soul Armor</p>
+                  <p> Cap and Bell Fire</p>
+                  <p> Walter Sealed Talisman +1</p>
+                  <p> Walter Sealed Talisman +2</p>
+                  <p> Piece of Sheet Talisman</p>
+                  <p> Crystalloid Talisman</p>
+                  <p> and so on!</p><br>
+                  <p> <b>The Event will end on October 17, 2022</b></p>
                  <br><br>
                   <?php include('settings_modal.php'); include('function_js.php'); ?>
                   <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#HolidayGiftBox" data-bs-original-title="" title=""><i class="fa fa-shopping-cart me-2"></i> Buy Holiday Giftbox</button>

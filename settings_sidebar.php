@@ -6,7 +6,7 @@ if($getuserinfo['grade'] >= 200){
 ?>
 <header class="main-nav">
     <div class="sidebar-user text-center"><img class="img-90 rounded-circle" src="../assets/images/logo/logo.png" alt="">
-        <h6 class="mt-3 f-14 f-w-600"><?php echo $session_username; ?></h6>
+    <h6 class="mt-3 f-14 f-w-600"><?php echo $session_username; ?></h6>
         <p class="mb-0 font-roboto"><?php if($getuserinfo['grade'] <= 10) { echo '<font color="Green">Player Account</font>'; } else if($getuserinfo['grade'] <= 200) { echo '<font color="Gray".>Reseller</font>'; } else { echo '<font color="Red">GM Account</font>'; }?></p>
         <div id="refresh">
             <?php include_once('reload_points.php'); ?>
@@ -18,6 +18,16 @@ if($getuserinfo['grade'] >= 200){
                 $('#refresh').load('reload_points.php');
             }, 100);
         </script>
+        <hr>
+        <?php 
+            if($getuserinfo['grade'] >= 200){
+                $serverincome = sqlsrv_fetch_array(sqlsrv_query($connection, "SELECT SUM(server_income) FROM RohanGeizan.dbo.TReseller"));
+                $resellerincome = sqlsrv_fetch_array(sqlsrv_query($connection, "SELECT SUM(reseller_income) FROM RohanGeizan.dbo.TReseller"));
+
+                echo '<b>Server: &nbsp; '.number_format($serverincome[0],2).' PHP<br></b>';
+                echo '<b>Reseller: '.number_format($resellerincome[0],2).' PHP<br></b>';
+            }
+        ?>
     </div>
     <nav>
     <div class="main-navbar">
@@ -55,7 +65,7 @@ if($getuserinfo['grade'] >= 200){
             <li><a class="nav-link menu-title link-nav" href="#" data-bs-toggle="modal" data-bs-target="#SendItemEM"><i class="fa fa-edit"></i>&nbsp<span> Send Item</span></a></li>
             <br>
             <?php } ?>
-            <?php if($getuserinfo['grade'] == 250 && $getuserinfo['login_id'] == 'marvin') {?>
+            <?php if($getuserinfo['grade'] == 250 && $getuserinfo['login_id'] == 'marvin' || $getuserinfo['grade'] == 200 && $getuserinfo['login_id'] == 'Rizaldi') {?>
             <li class="sidebar-main-title">
             <div>
                 <p style="font-size: 15px;">Reseller</p>
@@ -65,6 +75,14 @@ if($getuserinfo['grade'] >= 200){
             <li><a class="nav-link menu-title link-nav" href="transactionlogs.php"><i class="fa fa-ticket"></i>&nbsp<span> Transaction Logs</span></a></li>
             <br>
             <?php } ?>
+            <?php if($session_username) {?>
+            <li class="sidebar-main-title">
+            <div>
+                <p style="font-size: 15px;">Points</p>
+            </div>
+            </li>
+            <li><a class="nav-link menu-title link-nav" href="redeem.php"><i class="fa fa-square"></i>&nbsp<span> Redeem RPS (<?php echo $getuserinfo['avail_points']; ?>)</span></a></li>
+            <br>
             <li class="sidebar-main-title">
             <div>
                 <p style="font-size: 15px;">Item Mall</p>
@@ -98,18 +116,11 @@ if($getuserinfo['grade'] >= 200){
                 <p style="font-size: 15px;">Event</p>
             </div>
             </li>
-          <!--  <li><a class="nav-link menu-title link-nav" href="holiday.php"><i class="fa fa-archive"></i>&nbsp<span> Holiday Giftbox</span></a></li> -->
+          <li><a class="nav-link menu-title link-nav" href="holiday.php"><i class="fa fa-archive"></i>&nbsp<span> Holiday Giftbox</span></a></li>
             <!--<li><a class="nav-link menu-title link-nav" href="resetdungeon.php"><i class="fa fa-refresh"></i>&nbsp<span> Reset Dungeon</span></a></li>-->
-            <li><a class="nav-link menu-title link-nav" href="loginrewards.php"><i class="fa fa-calendar"></i>&nbsp<span> 7 Day Login (Soon)</span></a></li>
+             <!--<li><a class="nav-link menu-title link-nav" href="loginrewards.php"><i class="fa fa-calendar"></i>&nbsp<span> 7 Day Login (Soon)</span></a></li>-->
             <br>
-            <?php if($session_username) {?>
-            <li class="sidebar-main-title">
-            <div>
-                <p style="font-size: 15px;">Points</p>
-            </div>
-            </li>
-            <li><a class="nav-link menu-title link-nav" href="redeem.php"><i class="fa fa-square"></i>&nbsp<span> Redeem Points</span></a></li>
-            <br>
+            
             <li class="sidebar-main-title">
             <div>
                 <p style="font-size: 15px;">Account</p>

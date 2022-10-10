@@ -14,7 +14,7 @@ else{
             if($insertitem)
             {
                 sqlsrv_query($connection, "UPDATE RohanUser.dbo.TUser set rps = rps - 149 where user_id = '$session_id'");
-                sqlsrv_query($connection, "INSERT INTO RohanGeizan.dbo.THistory (description, date, login_id, type, status, price, point) VALUES ('',GETDATE(),'$session_id','4326290','HG','69', 'RPS')");
+                sqlsrv_query($connection, "INSERT INTO RohanGeizan.dbo.THistory (description, date, login_id, type, status, price, point) VALUES ('',GETDATE(),'$session_id','4326290','HG','149', 'RPS')");
                 echo '<div class="alert alert-success alert-dismissable col col-lg-12"><p class="block">You have successfully purchased - Holiday Giftbox</p></div>';
             }
             else
